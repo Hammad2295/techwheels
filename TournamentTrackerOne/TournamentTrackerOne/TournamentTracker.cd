@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="TournamentTrackerOne.BAL.Person" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAgAAAAAAAAAAIAAACAAAAACAAAAAA=</HashCode>
+      <FileName>BAL\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.Viewer">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAgAABAA=</HashCode>
+      <FileName>BAL\Viewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.Player" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAQAAAgAAAAAACAAAAgAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.Captain" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Captain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.Coach" Collapsed="true">
+    <Position X="6" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BAL\Coach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.TeamsInTournament">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAQAgAAAAEAAAAAAAA=</HashCode>
+      <FileName>BAL\TeamsInTournament.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="team" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.Team">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAECAAAAIAEAAgABAAAAAAAAIAA=</HashCode>
+      <FileName>BAL\Team.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="captain" />
+      <Field Name="coach" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.TournamentOwner" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAABAAAAgAAAAA=</HashCode>
+      <FileName>BAL\TournamentOwner.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TournamentTrackerOne.BAL.Tournaments">
+    <Position X="8.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAiAABACAAAAACAAAAAAAABAEAAAAAAAA=</HashCode>
+      <FileName>BAL\Tournaments.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

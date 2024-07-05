@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2782DC08-24E3-43F3-8955-35715BD8327D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>TournamentTrackerOne</RootNamespace>
+    <AssemblyName>TournamentTrackerOne</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BAL\Captain.cs" />
+    <Compile Include="BAL\Coach.cs" />
+    <Compile Include="BAL\MatchMaking.cs" />
+    <Compile Include="BAL\Person.cs" />
+    <Compile Include="BAL\Player.cs" />
+    <Compile Include="BAL\Team.cs" />
+    <Compile Include="BAL\TeamsInTournament.cs" />
+    <Compile Include="BAL\TournamentOwner.cs" />
+    <Compile Include="BAL\Tournaments.cs" />
+    <Compile Include="BAL\Viewer.cs" />
+    <Compile Include="DAL\DatabaseQueries.cs" />
+    <Compile Include="PAL\AddCaptain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\AddCaptain.Designer.cs">
+      <DependentUpon>AddCaptain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\AddCoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\AddCoach.Designer.cs">
+      <DependentUpon>AddCoach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\AddPlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\AddPlayer.Designer.cs">
+      <DependentUpon>AddPlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\AddPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\AddPrice.Designer.cs">
+      <DependentUpon>AddPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\AddTeams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\AddTeams.Designer.cs">
+      <DependentUpon>AddTeams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\DeleteCaptain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\DeleteCaptain.Designer.cs">
+      <DependentUpon>DeleteCaptain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\DeleteCoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\DeleteCoach.Designer.cs">
+      <DependentUpon>DeleteCoach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\DeletePlayer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\DeletePlayer.Designer.cs">
+      <DependentUpon>DeletePlayer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\DeleteTeam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\DeleteTeam.Designer.cs">
+      <DependentUpon>DeleteTeam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\MainPage.Designer.cs">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ManageCaptain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ManageCaptain.Designer.cs">
+      <DependentUpon>ManageCaptain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ManageCoach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ManageCoach.Designer.cs">
+      <DependentUpon>ManageCoach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ManagePrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ManagePrice.Designer.cs">
+      <DependentUpon>ManagePrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ManageTeams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ManageTeams.Designer.cs">
+      <DependentUpon>ManageTeams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\MatchMaking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\MatchMaking.Designer.cs">
+      <DependentUpon>MatchMaking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\NewTournament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\NewTournament.Designer.cs">
+      <DependentUpon>NewTournament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ShoowTeamsinScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ShoowTeamsinScore.Designer.cs">
+      <DependentUpon>ShoowTeamsinScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ShowPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ShowPrice.Designer.cs">
+      <DependentUpon>ShowPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\THomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\THomePage.Designer.cs">
+      <DependentUpon>THomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TLogin.Designer.cs">
+      <DependentUpon>TLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TLoginSignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TLoginSignup.Designer.cs">
+      <DependentUpon>TLoginSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TournamentTracker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TournamentTracker.Designer.cs">
+      <DependentUpon>TournamentTracker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TrackerScore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TrackerScore.Designer.cs">
+      <DependentUpon>TrackerScore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TrackerViewTeams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TrackerViewTeams.Designer.cs">
+      <DependentUpon>TrackerViewTeams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TrackPlayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TrackPlayers.Designer.cs">
+      <DependentUpon>TrackPlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TrackTournament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TrackTournament.Designer.cs">
+      <DependentUpon>TrackTournament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\TSignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\TSignup.Designer.cs">
+      <DependentUpon>TSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ViewerScoreBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ViewerScoreBoard.Designer.cs">
+      <DependentUpon>ViewerScoreBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\ViewPlayers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\ViewPlayers.Designer.cs">
+      <DependentUpon>ViewPlayers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\VLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\VLogin.Designer.cs">
+      <DependentUpon>VLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\VLoginSignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\VLoginSignup.Designer.cs">
+      <DependentUpon>VLoginSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PAL\VSignup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PAL\VSignup.Designer.cs">
+      <DependentUpon>VSignup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PAL\AddCaptain.resx">
+      <DependentUpon>AddCaptain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\AddCoach.resx">
+      <DependentUpon>AddCoach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\AddPlayer.resx">
+      <DependentUpon>AddPlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\AddPrice.resx">
+      <DependentUpon>AddPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\AddTeams.resx">
+      <DependentUpon>AddTeams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\DeleteCaptain.resx">
+      <DependentUpon>DeleteCaptain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\DeleteCoach.resx">
+      <DependentUpon>DeleteCoach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\DeletePlayer.resx">
+      <DependentUpon>DeletePlayer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\DeleteTeam.resx">
+      <DependentUpon>DeleteTeam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\MainPage.resx">
+      <DependentUpon>MainPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ManageCaptain.resx">
+      <DependentUpon>ManageCaptain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ManageCoach.resx">
+      <DependentUpon>ManageCoach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ManagePrice.resx">
+      <DependentUpon>ManagePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ManageTeams.resx">
+      <DependentUpon>ManageTeams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\MatchMaking.resx">
+      <DependentUpon>MatchMaking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\NewTournament.resx">
+      <DependentUpon>NewTournament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ShoowTeamsinScore.resx">
+      <DependentUpon>ShoowTeamsinScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ShowPrice.resx">
+      <DependentUpon>ShowPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\THomePage.resx">
+      <DependentUpon>THomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TLogin.resx">
+      <DependentUpon>TLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TLoginSignup.resx">
+      <DependentUpon>TLoginSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TournamentTracker.resx">
+      <DependentUpon>TournamentTracker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TrackerScore.resx">
+      <DependentUpon>TrackerScore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TrackerViewTeams.resx">
+      <DependentUpon>TrackerViewTeams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TrackPlayers.resx">
+      <DependentUpon>TrackPlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TrackTournament.resx">
+      <DependentUpon>TrackTournament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\TSignup.resx">
+      <DependentUpon>TSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ViewerScoreBoard.resx">
+      <DependentUpon>ViewerScoreBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\ViewPlayers.resx">
+      <DependentUpon>ViewPlayers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\VLogin.resx">
+      <DependentUpon>VLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\VLoginSignup.resx">
+      <DependentUpon>VLoginSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PAL\VSignup.resx">
+      <DependentUpon>VSignup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="TournamentTracker.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

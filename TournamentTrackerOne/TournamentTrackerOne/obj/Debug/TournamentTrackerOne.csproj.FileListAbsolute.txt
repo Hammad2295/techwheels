@@ -1,0 +1,78 @@
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\bin\Debug\TournamentTrackerOne.exe.config
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\bin\Debug\TournamentTrackerOne.exe
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\bin\Debug\TournamentTrackerOne.pdb
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.csproj.AssemblyReference.cache
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.THomePage.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TLogin.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TLoginSignup.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TSignup.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.Properties.Resources.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.csproj.GenerateResource.cache
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.csproj.CoreCompileInputs.cache
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.exe
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.pdb
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.NewTournament.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManageTeams.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddCaptain.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddTeams.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManageCaptain.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeleteCaptain.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddCoach.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeleteCoach.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManageCoach.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeleteTeam.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddPlayer.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeletePlayer.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.MatchMaking.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddPrice.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManagePrice.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ShowPrice.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.MainPage.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TournamentTracker.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.VLogin.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.VLoginSignup.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.VSignup.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ViewerScoreBoard.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ViewPlayers.resources
+D:\University\3rd - Semester\CSC-2071 - OOP\Final Project\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ShoowTeamsinScore.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\bin\Debug\TournamentTrackerOne.exe.config
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\bin\Debug\TournamentTrackerOne.exe
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\bin\Debug\TournamentTrackerOne.pdb
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.csproj.AssemblyReference.cache
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddCaptain.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddCoach.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddPlayer.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddPrice.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.AddTeams.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeleteCaptain.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeleteCoach.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeletePlayer.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.DeleteTeam.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.MainPage.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManageCaptain.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManageCoach.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManagePrice.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ManageTeams.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.MatchMaking.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.NewTournament.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ShoowTeamsinScore.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ShowPrice.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.THomePage.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TLogin.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TLoginSignup.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TournamentTracker.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TSignup.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ViewerScoreBoard.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.ViewPlayers.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.VLogin.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.VLoginSignup.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.VSignup.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.Properties.Resources.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.csproj.GenerateResource.cache
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.csproj.CoreCompileInputs.cache
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.exe
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.pdb
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TrackTournament.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TrackerScore.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TrackerViewTeams.resources
+C:\Users\maria\OneDrive\Desktop\Final\TournamentTrackerOne\TournamentTrackerOne\obj\Debug\TournamentTrackerOne.PAL.TrackPlayers.resources
